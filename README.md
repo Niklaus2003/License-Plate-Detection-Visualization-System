@@ -53,8 +53,8 @@ It captures plates from video or image feeds, detects them using <b>YOLOv8</b>, 
 <h2>⚙️ Installation</h2>
 
 <pre>
-git clone https://github.com/Niklaus2003/License-Plate-Detection.git
-cd License-Plate-Detection
+git clone https://github.com/Niklaus2003/License-Plate-Detection-Visualization-System
+cd License-Plate-Detection-Visualization-System
 pip install -r requirements.txt
 </pre>
 
@@ -64,6 +64,8 @@ pip install -r requirements.txt
 
 <pre>
 python main.py
+python add_missing_data.py
+python visualize.py
 </pre>
 
 <p>
